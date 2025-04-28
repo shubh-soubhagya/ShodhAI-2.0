@@ -19,7 +19,7 @@ logging.getLogger("langchain").setLevel(logging.ERROR)  # Suppress unnecessary l
 groq_api_key = os.getenv('GROQ_API_KEY')
 
 # Initialize Flask app
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max upload
 app.config['ALLOWED_EXTENSIONS'] = {'pdf'}
@@ -209,7 +209,7 @@ def compare_pdfs(pdf_files):
 # Route for the main page
 @app.route('/docsim')
 def docsim():
-    return render_template('index.html')
+    return render_template('docsim.html')
 
 # API endpoint for processing PDFs
 @app.route('/docsim/api/process', methods=['POST'])
@@ -404,19 +404,19 @@ def download_html():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-if __name__ == '__main__':
-    # Make sure templates directory exists
-    os.makedirs('templates', exist_ok=True)
+# if __name__ == '__main__':
+#     # Make sure templates directory exists
+#     os.makedirs('templates', exist_ok=True)
     
-    # Check if index.html exists, if not warn the user
-    if not os.path.exists('templates/docsim.html'):
-        print("\nWARNING: templates/docsim.html not found!")
-        print("Please create the file 'templates/docsim.html' with the HTML content provided earlier.\n")
+#     # Check if index.html exists, if not warn the user
+#     if not os.path.exists('templates/docsim.html'):
+#         print("\nWARNING: templates/docsim.html not found!")
+#         print("Please create the file 'templates/docsim.html' with the HTML content provided earlier.\n")
     
     # Run the Flask app
     # app.run(debug=True, host='0.0.0.0', port=5000)
 
-    # if __name__ == '__main__':
+# if __name__ == '__main__':
     # app.run(debug=True)
 
 
@@ -562,8 +562,8 @@ def ask_question():
 def serve_static(path):
     return send_from_directory('static/css', path)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
 
 # if __name__ == '__main__':
 #     import os
@@ -678,6 +678,7 @@ def ask_groq(question, content, client):
 
 @app.route('/webbot')
 def webbot():
+    print("Webbot route accessed!")
     return render_template('webbot.html')
 
 @app.route('/webbot/extract', methods=['POST'])
@@ -768,14 +769,14 @@ def download_content():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-if __name__ == "__main__":
-    # Ensure the content directory exists
-    os.makedirs(CONTENT_DIR, exist_ok=True)
+# if __name__ == "__main__":
+#     # Ensure the content directory exists
+#     os.makedirs(CONTENT_DIR, exist_ok=True)
     
-    # Create history.json if it doesn't exist
-    if not os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
-            json.dump({}, f)
+#     # Create history.json if it doesn't exist
+#     if not os.path.exists(HISTORY_FILE):
+#         with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
+#             json.dump({}, f)
     
     # app.run(debug=True)
 
@@ -816,7 +817,7 @@ def upload_file():
     return jsonify({'status': 'error', 'message': 'Invalid file format. Please upload a PDF.'})
 
 @app.route('/rag/ask', methods=['POST'])
-def ask_question():
+def ask_question_rag():
     global agent_executor
     
     if not agent_executor:
