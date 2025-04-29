@@ -1,0 +1,5 @@
+groq==0.16.0
+flask==3.0.3
+# youtube-transcript-api==0.6.3
+youtube-transcript-api>=0.6.1
+python-dotenv==1.0.1
