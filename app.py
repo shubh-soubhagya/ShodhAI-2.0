@@ -1,18 +1,48 @@
 import os
-import logging
+import re
+import io
+import csv
+import json
 import time
-from flask import Flask, render_template, request, jsonify
+import groq
+import base64
+import shutil
+import logging
+import requests
+import tempfile
+import numpy as np
+from datetime import datetime
+from flask import Flask, render_template, request, jsonify, send_file, send_from_directory
+from flask_cors import CORS
+from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
+from bs4 import BeautifulSoup
+from PyPDF2 import PdfReader
+from fpdf import FPDF
+from docx import Document
+from concurrent.futures import ThreadPoolExecutor
+from groq import Groq
 from langchain_groq import ChatGroq
+from langchain_community.chat_models import ChatOllama
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.tools.retriever import create_retriever_tool
 from langchain.agents import create_openai_tools_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate
-from werkzeug.utils import secure_filename
-from langchain_community.chat_models import ChatOllama
+from transcript_extractor.extract_transcript import get_transcript, get_transcript_with_timestamps
+from transcriptQA.groqllm import ask_groq_yt
+from python_scripts.ocr import extract_text
+from python_scripts.spelling_corrections import correct_spelling
+from python_scripts.spacings import add_space_after_punctuation
+from python_scripts.groqllm import clean_text
+from plag.cosine_similarity import cosine_similarity_count, cosine_similarity_tfidf
+from plag.jaccard_similarity import jaccard_similarity
+from plag.lcs import lcs
+from plag.lsh import lsh_similarity
+from plag.n_gram_similarity import n_gram_similarity
+
 
 
 # Load environment variables
@@ -35,10 +65,6 @@ retriever_global = None
 
 # Ensure upload directory exists
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
-
-# # Create a session variable to store the current PDF path
-# current_pdf_path = None
-# agent_executor = None
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
@@ -129,22 +155,6 @@ def home():
 
 ###################### OCR TOOL #######################
 
-from flask import Flask, render_template, request, send_file
-import os
-from python_scripts.ocr import extract_text
-from python_scripts.spelling_corrections import correct_spelling
-from python_scripts.spacings import add_space_after_punctuation
-from python_scripts.groqllm import clean_text
-from werkzeug.utils import secure_filename
-from fpdf import FPDF
-from docx import Document
-
-# Initialize Flask app
-# app = Flask(__name__)
-
-# Configure upload folder
-# UPLOAD_FOLDER = 'textify/uploads'
-# TEMP_FOLDER = 'textify/temp_files'
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 UPLOAD_FOLDER = os.path.join(BASE_DIR, 'uploads')
 TEMP_FOLDER = os.path.join(BASE_DIR, 'temp_files')
@@ -292,35 +302,10 @@ def download():
 def too_large(e):
     return 'File is too large', 413
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
 
 
 ########################## DOCSIMILARITY ##################################
 
-import os
-import re
-import json
-import base64
-from flask import Flask, render_template, request, jsonify, send_file
-from flask_cors import CORS
-from werkzeug.utils import secure_filename
-from PyPDF2 import PdfReader
-from plag.cosine_similarity import cosine_similarity_count, cosine_similarity_tfidf
-from plag.jaccard_similarity import jaccard_similarity
-from plag.lcs import lcs
-from plag.lsh import lsh_similarity
-from plag.n_gram_similarity import n_gram_similarity
-import numpy as np
-from concurrent.futures import ThreadPoolExecutor
-import tempfile
-import shutil
-import csv
-import io
-from datetime import datetime
-
-# app = Flask(__name__)
-# CORS(app)  # Enable CORS for all routes
 app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024  # 50MB max upload
 
 # Preprocessing Function
@@ -608,51 +593,16 @@ def download_html():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# if __name__ == '__main__':
-#     # Make sure templates directory exists
-#     os.makedirs('templates', exist_ok=True)
-    
-#     # Check if index.html exists, if not warn the user
-#     if not os.path.exists('templates/docsim.html'):
-#         print("\nWARNING: templates/docsim.html not found!")
-#         print("Please create the file 'templates/docsim.html' with the HTML content provided earlier.\n")
-    
-    # Run the Flask app
-    # app.run(debug=True, host='0.0.0.0', port=5000)
-
-# if __name__ == '__main__':
-    # app.run(debug=True)
-
-
 
 
 ################ YOUTUBE CHATBOT ######################
 
-from flask import Flask, request, jsonify, render_template, send_from_directory
-from transcript_extractor.extract_transcript import get_transcript, get_transcript_with_timestamps
-from dotenv import load_dotenv
-from transcriptQA.groqllm import ask_groq_yt
-from groq import Groq
-import os
-
-
-# Load environment variables
-# load_dotenv()
-
-# app = Flask(__name__, static_folder='static')
-
-
-# Initialize API client
-# api_key = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=groq_api_key)
 
 # Define temp directory for transcript files
 base_path = os.path.abspath(os.path.join(os.getcwd(), "temp_files"))
 transcript_file = os.path.join(base_path, "transcript.txt")
 timestamp_file = os.path.join(base_path, "transcripts_with_timestamps.txt")
-
-# Ensure temp_files directory exists
-# os.makedirs(base_path, exist_ok=True)
 
 print(f"📁 Base path: {base_path}")
 print("Transcript File Exists:", os.path.exists(transcript_file))
@@ -762,36 +712,10 @@ def ask_question():
 def serve_static(path):
     return send_from_directory('static/css', path)
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
-
-# if __name__ == '__main__':
-#     import os
-#     port = int(os.environ.get('PORT', 5000))  # Use the PORT env from Render
-#     app.run(host='0.0.0.0', port=port, debug=True)
-
-
 
 
 ########################### WEBSITE CHATBOT ############################
 
-import groq
-from dotenv import load_dotenv
-import os
-from flask import Flask, render_template, request, jsonify, send_file
-import json
-import requests
-from bs4 import BeautifulSoup
-
-# Initialize Flask app
-# app = Flask(__name__)
-
-# Load environment variables
-# load_dotenv()
-# groq_api_key = os.getenv('GROQ_API_KEY')
-
-# Define the base directory as inside the Prashna folder
-# This assumes the script is run from the Prashna folder
 CONTENT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'content')
 
 # Use proper path separators for files
@@ -966,17 +890,6 @@ def download_content():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# if __name__ == "__main__":
-#     # Ensure the content directory exists
-#     os.makedirs(CONTENT_DIR, exist_ok=True)
-    
-#     # Create history.json if it doesn't exist
-#     if not os.path.exists(HISTORY_FILE):
-#         with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
-#             json.dump({}, f)
-    
-    # app.run(debug=True)
-
 
 
 ############################################# RAG BASED CHATBOT ##########################################
@@ -986,10 +899,6 @@ def rag():
 
 
 @app.route('/rag/upload', methods=['POST'])
-
-# @app.route('/rag/upload', methods=['POST'])
-# @app.route('/upload', methods=['POST'])
-
 def upload_file():
     global current_pdf_path
 
@@ -1014,36 +923,7 @@ def upload_file():
 
     return jsonify({'status': 'error', 'message': 'Invalid file format. Only PDFs are allowed.'})
 
-# def upload_file():
-#     global current_pdf_path
-    
-#     if 'pdf_file' not in request.files:
-#         return jsonify({'status': 'error', 'message': 'No file part'})
-    
-#     file = request.files['pdf_file']
-    
-#     if file.filename == '':
-#         return jsonify({'status': 'error', 'message': 'No file selected'})
-    
-#     if file and allowed_file(file.filename):
-#         filename = secure_filename(file.filename)
-#         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-#         file.save(filepath)
-#         current_pdf_path = filepath
-        
-#         try:
-#             success = process_pdf(filepath)
-#             if success:
-#                 return jsonify({'status': 'success', 'message': 'PDF uploaded and processed successfully'})
-#             else:
-#                 return jsonify({'status': 'error', 'message': 'Failed to process PDF'})
-#         except Exception as e:
-#             return jsonify({'status': 'error', 'message': f'Error processing PDF: {str(e)}'})
-    
-#     return jsonify({'status': 'error', 'message': 'Invalid file format. Please upload a PDF.'})
-
 @app.route('/rag/ask', methods=['POST'])
-
 def ask_question_rag():
     global agent_executor
     global retriever_global
@@ -1085,36 +965,6 @@ def ask_question_rag():
     except Exception as e:
         logger.error(f"Error answering question: {str(e)}", exc_info=True)
         return jsonify({'status': 'error', 'message': f'Backend Error: {str(e)}'})
-    
-# def ask_question_rag():
-#     global agent_executor
-    
-#     if not agent_executor:
-#         return jsonify({'status': 'error', 'message': 'Please upload a PDF first'})
-    
-#     data = request.json
-#     query = data.get('query', '')
-    
-#     if not query:
-#         return jsonify({'status': 'error', 'message': 'Query is empty'})
-    
-#     try:
-#         start_time = time.time()
-#         response = agent_executor.invoke({
-#             "input": query,
-#             "context": "",
-#             "agent_scratchpad": ""
-#         })
-#         answer = response['output']
-#         response_time = time.time() - start_time
-        
-#         return jsonify({
-#             'status': 'success',
-#             'answer': answer,
-#             'response_time': f"{response_time:.2f}"
-#         })
-#     except Exception as e:
-#         return jsonify({'status': 'error', 'message': f'Error: {str(e)}'})
 
 if __name__ == '__main__':
     app.run(debug=True)
