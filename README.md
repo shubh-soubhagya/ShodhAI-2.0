@@ -1,4 +1,4 @@
-# ShodhAI - AI-Powered Research Assistant
+# ShodhAI - The Unified AI Platform for Interactive Learning and Content Analysis
 
 ShodhAI is a comprehensive AI-powered research and document analysis platform that helps researchers, students, and professionals process, analyze, and extract insights from various types of documents and content.
 
