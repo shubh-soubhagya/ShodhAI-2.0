@@ -29,26 +29,26 @@ Each feature is designed to be fast, accurate, and easy to use—turning digital
 
 ## 🛠️ Installation Steps
 
-1. **Clone the Repository**
+### Clone the Repository
 ```bash
 git clone https://github.com/yourusername/ShodhAI-2.0.git
 cd ShodhAI-2.0
 ```
 
-2. **Create Environment File**
-   Create a `.env` file in the root directory and add your Groq API key:
+### **Create Environment File
+Create a `.env` file in the root directory and add your Groq API key:
 ```
 GROQ_API_KEY = "your_groq_api_key_here"
 ```
-   You can generate your Free API Key from [Groq Console](https://console.groq.com/keys)
+You can generate your Free API Key from [Groq Console](https://console.groq.com/keys)
 
-3. **Install Dependencies**
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Install Embedding Model**
-   Create the directory `ShodhAI-2.0/models` and run the script to download and save the model:
+### Install Embedding Model
+Create the directory `ShodhAI-2.0/models` and run the script to download and save the model:
 ``` bash
 from sentence_transformers import SentenceTransformer
 
@@ -62,13 +62,13 @@ model.save(custom_path)
 print(f"Model saved to: {custom_path}")
 ```
    
-5. **Install Ollama**
-   Download and install Ollama from [ollama.ai](https://ollama.ai) and pull the required model:
+### Install Ollama
+Download and install Ollama from [ollama.ai](https://ollama.ai) and pull the required model:
 ```bash
 ollama pull gemma2:2b
 ```
 
-6. **Run the Application**
+### Run the Application
 ```bash
 python app.py
 ```
