@@ -2,196 +2,130 @@
 
 ShodhAI is a comprehensive AI-powered research and document analysis platform that helps researchers, students, and professionals process, analyze, and extract insights from various types of documents and content.
 
-## 📸 Main Interface
-![ShodhAI Main Interface](screenshots/main_interface.png)
-*ShodhAI's comprehensive dashboard with all tools and features*
-
-## 📸 Adding Screenshots
-To add screenshots to the project:
-
-1. Create a `screenshots` directory in the project root:
-   ```bash
-   mkdir screenshots
-   ```
-
-2. Add your screenshots to the `screenshots` directory:
-   - `main_interface.png` - Main dashboard screenshot
-   - `pdf_processing.png` - PDF processing interface
-   - `ocr_tool.png` - OCR tool interface
-   - `doc_similarity.png` - Document similarity interface
-   - `youtube_bot.png` - YouTube transcript bot interface
-   - `web_bot.png` - Web content bot interface
-
-3. Ensure screenshots are:
-   - High quality (recommended resolution: 1920x1080)
-   - In PNG format
-   - Properly cropped to show relevant features
-   - Less than 1MB in size
+---
 
 ## 🌟 Features
 
-### 1. PDF Processing & RAG
-- Upload and process PDF documents
-- Extract text and create embeddings
-- Ask questions about PDF content
-- Get AI-powered responses based on document context
+1. **YouTube Transcript Analyzer & QnA Bot**: Turn any YouTube video into an interactive learning experience. Extract transcripts and ask questions about video content through our AI assistant.
 
-### 2. OCR (Optical Character Recognition)
-- Convert images to text
-- Support for PNG, JPG, JPEG formats
-- Automatic text correction and formatting
-- Export to TXT, PDF, or DOCX formats
+2. **Website URL Analyzer**: Analyze content from any website URL using our AI engine. Summarize, extract insights, detect sentiment, and interact with page content through intelligent QnA—all in one click.
 
-### 3. Document Similarity Analysis
-- Compare multiple PDF documents
-- Generate similarity scores
-- Download detailed comparison reports
-- Visualize document relationships
+3. **RAG-Based Chatbot for PDFs**: Upload any PDF and instantly generate an AI chatbot that understands your document. Ask questions and get accurate, context-aware answers in seconds.
 
-### 4. YouTube Transcript Bot
-- Extract transcripts from YouTube videos
-- Ask questions about video content
-- Save and process transcripts
-- Get AI-powered responses
+4. **Document Similarity Check**: An advanced tool that detects content overlap, paraphrasing, and plagiarism across academic or professional documents. Upload files and receive detailed similarity reports in seconds with precision accuracy.
 
-### 5. Web Content Bot
-- Extract content from web pages
-- Ask questions about web content
-- Maintain interaction history
-- Download processed content
+5. **High-Precision OCR Text Extractor**: Extract text from images with exceptional accuracy. Copy the extracted content or download it instantly in your preferred format for easy use.
 
-## 🚀 Getting Started
+Each feature is designed to be fast, accurate, and easy to use—turning digital resources into dynamic, interactive tools.
 
-### Prerequisites
-- Python 3.8 or higher
-- Groq API key
-- Ollama installed locally
+---
+
+## ⚙️ Prerequisites
+- Python 3.8 or higher  
+- Groq API Key 
+- Ollama installed locally  
+- `all-MiniLM-L6-v2` model saved at `ShodhAI-2.0/models`  
 - Git
 
-### Installation Steps
+## 🛠️ Installation Steps
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/ShodhAI-2.0.git
-   cd ShodhAI-2.0
-   ```
+```bash
+git clone https://github.com/yourusername/ShodhAI-2.0.git
+cd ShodhAI-2.0
+```
 
 2. **Create Environment File**
-   - Create a `.env` file in the root directory
-   - Add your Groq API key:
-     ```
-     GROQ_API_KEY=your_groq_api_key_here
-     ```
+Create a `.env` file in the root directory and add your Groq API key:
+```
+GROQ_API_KEY = "your_groq_api_key_here"
+```
+You can generate your Free API Key from [Groq Console](https://console.groq.com/keys)
 
 3. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-4. **Install Ollama**
-   - Download and install Ollama from [ollama.ai](https://ollama.ai)
-   - Pull the required model:
-     ```bash
-     ollama pull gemma2:2b
-     ```
+4. **Install Embedding Model**
+Create the directory `ShodhAI-2.0/models` and run the script to download and save the model:
+``` bash
+from sentence_transformers import SentenceTransformer
 
-5. **Run the Application**
-   ```bash
-   python app.py
-   ```
-   The application will be available at `http://localhost:5000`
+# Define your custom path
+custom_path = "ShodhAI-2.0/models/all-MiniLM-L6-v2"
+
+# Load and save the model
+model = SentenceTransformer('all-MiniLM-L6-v2')
+model.save(custom_path)
+
+print(f"Model saved to: {custom_path}")
+```
+   
+5. **Install Ollama**
+Download and install Ollama from [ollama.ai](https://ollama.ai) and pull the required model:
+```bash
+ollama pull gemma2:2b
+```
+
+6. **Run the Application**
+```bash
+python app.py
+```
+The application will be available at `http://localhost:5000`
+
+---
 
 ## 📁 Project Structure
 ```
 ShodhAI-2.0/
 ├── app.py                 # Main application file
+├── .env                   # Groq API key env 
 ├── requirements.txt       # Project dependencies
-├── templates/            # Web templates
-├── static/              # Static assets
-├── uploads/             # File uploads
-├── temp_files/          # Temporary files
-├── transcript_extractor/ # Transcript processing
-├── transcriptQA/        # Transcript Q&A
-├── python_scripts/      # Utility scripts
-├── plag/               # Plagiarism detection
-└── content/            # Content storage
+├── templates/             # Web templates
+├── static/                # Static assets
+├── models/                # Embedding model
+├── uploads/               # File uploads
+├── temp_files/            # Temporary files
+├── transcript_extractor/  # Transcript processing
+├── transcriptQA/          # Transcript Q&A
+├── python_scripts/        # Utility scripts
+├── plag/                  # Plagiarism detection
+└── content/               # Content storage
 ```
-
-## 🛠️ Technical Stack
-- **Backend**: Flask (Python)
-- **AI/ML**: 
-  - LangChain
-  - Groq
-  - HuggingFace
-  - FAISS
-  - Sentence Transformers
-- **Document Processing**:
-  - PyPDF2
-  - python-docx
-  - FPDF
-  - pytesseract (OCR)
-- **Other Dependencies**:
-  - OpenCV
-  - PaddlePaddle
-  - scikit-learn
-  - pandas
-  - numpy
-
-## 📸 Demo Screenshots
-
-### PDF Processing
-![PDF Processing](screenshots/pdf_processing.png)
-*Upload and process PDF documents with AI-powered Q&A*
-
-### OCR Tool
-![OCR Tool](screenshots/ocr_tool.png)
-*Convert images to text with automatic correction*
-
-### Document Similarity
-![Document Similarity](screenshots/doc_similarity.png)
-*Compare and analyze document similarities*
-
-### YouTube Transcript Bot
-![YouTube Bot](screenshots/youtube_bot.png)
-*Extract and analyze YouTube video transcripts*
-
-### Web Content Bot
-![Web Bot](screenshots/web_bot.png)
-*Process and analyze web content*
-
-## 🔒 Security Features
-- File size limits (16MB max)
-- Secure filename handling
-- Allowed file type restrictions
-- Environment variable management
+---
 
 ## ⚠️ Common Issues & Solutions
 
 1. **Ollama Connection Error**
-   - Ensure Ollama is running locally
-   - Check if the model is properly installed
-   - Verify the base URL in the code
+- Ensure Ollama is running locally
+- Check if the model is properly pulled (`gemma2:2b`)
+- Verify the base URL in the code
 
 2. **File Upload Issues**
-   - Check file size limits
-   - Verify file extensions
-   - Ensure proper permissions
+- Check file size limits
+- Verify file extensions
+- Ensure proper permissions
 
 3. **API Key Issues**
-   - Verify GROQ_API_KEY in .env file
-   - Check API key validity
-   - Ensure proper environment setup
+- Make sure the key is correctly set in `.env`
+- Confirm your key is active at [Groq Console](https://console.groq.com/keys)
+- Ensure proper environment setup
+
+4. **Embedding Model Errors**
+- Confirm the directory `models/all-MiniLM-L6-v2` exists
+- Ensure correct path in code (no trailing slashes)
+- If model fails to load, re-run the embedding model installation script
+
+---
 
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 - LangChain for the AI framework
 - Groq for the LLM API
-- HuggingFace for the models
+- HuggingFace for the Embedding Model
 - All other open-source contributors
 
 ## 📞 Support
