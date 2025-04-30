@@ -40,7 +40,7 @@ Create a `.env` file in the root directory and add your Groq API key:
 ```
 GROQ_API_KEY = "your_groq_api_key_here"
 ```
-You can generate your Free API Key from [Groq Console](https://console.groq.com/keys)
+   You can generate your Free API Key from [Groq Console](https://console.groq.com/keys)
 
 3. **Install Dependencies**
 ```bash
