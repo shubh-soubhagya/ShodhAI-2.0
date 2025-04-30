@@ -36,7 +36,7 @@ cd ShodhAI-2.0
 ```
 
 2. **Create Environment File**
-Create a `.env` file in the root directory and add your Groq API key:
+   Create a `.env` file in the root directory and add your Groq API key:
 ```
 GROQ_API_KEY = "your_groq_api_key_here"
 ```
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```
 
 4. **Install Embedding Model**
-Create the directory `ShodhAI-2.0/models` and run the script to download and save the model:
+   Create the directory `ShodhAI-2.0/models` and run the script to download and save the model:
 ``` bash
 from sentence_transformers import SentenceTransformer
 
@@ -63,7 +63,7 @@ print(f"Model saved to: {custom_path}")
 ```
    
 5. **Install Ollama**
-Download and install Ollama from [ollama.ai](https://ollama.ai) and pull the required model:
+   Download and install Ollama from [ollama.ai](https://ollama.ai) and pull the required model:
 ```bash
 ollama pull gemma2:2b
 ```
