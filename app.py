@@ -88,7 +88,7 @@ def process_pdf(pdf_path):
 
         # Step 3: Load embeddings from local model
         embeddings_model = HuggingFaceEmbeddings(
-            model_name=r"C:\Users\hp\Desktop\ps_sol\models\all-MiniLM-L6-v2",
+            model_name=r"models\all-MiniLM-L6-v2",
             model_kwargs={'device': 'cpu'}
         )
 
