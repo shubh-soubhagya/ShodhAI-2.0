@@ -35,7 +35,7 @@ git clone https://github.com/yourusername/ShodhAI-2.0.git
 cd ShodhAI-2.0
 ```
 
-### **Create Environment File
+### Create Environment File
 Create a `.env` file in the root directory and add your Groq API key:
 ```
 GROQ_API_KEY = "your_groq_api_key_here"
