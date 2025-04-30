@@ -2,8 +2,6 @@
 
 ShodhAI is a comprehensive AI-powered research and document analysis platform that helps researchers, students, and professionals process, analyze, and extract insights from various types of documents and content.
 
----
-
 ## 🌟 Features
 
 1. **YouTube Transcript Analyzer & QnA Bot**: Turn any YouTube video into an interactive learning experience. Extract transcripts and ask questions about video content through our AI assistant.
@@ -29,25 +27,25 @@ Each feature is designed to be fast, accurate, and easy to use—turning digital
 
 ## 🛠️ Installation Steps
 
-### Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/ShodhAI-2.0.git
 cd ShodhAI-2.0
 ```
 
-### Create Environment File
+### 2. Create Environment File
 Create a `.env` file in the root directory and add your Groq API key:
 ```
 GROQ_API_KEY = "your_groq_api_key_here"
 ```
 You can generate your Free API Key from [Groq Console](https://console.groq.com/keys)
 
-### Install Dependencies
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Install Embedding Model
+### 4. Install Embedding Model
 Create the directory `ShodhAI-2.0/models` and run the script to download and save the model:
 ``` bash
 from sentence_transformers import SentenceTransformer
@@ -62,13 +60,13 @@ model.save(custom_path)
 print(f"Model saved to: {custom_path}")
 ```
    
-### Install Ollama
+### 5. Install Ollama
 Download and install Ollama from [ollama.ai](https://ollama.ai) and pull the required model:
 ```bash
 ollama pull gemma2:2b
 ```
 
-### Run the Application
+### 6. Run the Application
 ```bash
 python app.py
 ```
