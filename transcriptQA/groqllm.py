@@ -33,7 +33,7 @@ def ask_groq_yt(question, transcript_text, client):
                 },
                 {"role": "user", "content": f"Transcript: {transcript_text}\n\nQuestion: {question}"},
             ],
-            model="llama3-70b-8192",
+            model="llama-4-scout-17b-16e-instruct",
             temperature=0.5,
             max_completion_tokens=1024,
             top_p=1,
