@@ -1,92 +1,709 @@
-[00:00] [Music]
-[00:02] what is this funny oh okay it's such an
-[00:07] honor to present this next award the
-[00:09] five men I'm still watching you the five
-[00:11] men nominated in this category delivered
-[00:14] resonating evocative and captivating
-[00:16] performances here are the nominees for
-[00:19] performance by an actor in a leading
-[00:20] role
-[00:23] Christian Bale American hustle Bruce
-[00:25] Dern Nebraska Leonardo DiCaprio the wolf
-[00:29] of Wall Street
-[00:30] Chiwetel Ejiofor 12 years of slave
-[00:33] Matthew McConaughey Dallas buyers club
-[00:37] and the Oscar goes to Matthew
-[00:46] McConaughey
-[00:47] [Applause]
-[00:56] [Music]
-[00:57] [Applause]
-[00:59] [Music]
-[01:04] [Applause]
-[01:19] thank you thank you thank you thank you
-[01:25] thank you to the Academy for this all
-[01:29] 6,000 members thank you to the other
-[01:32] nominees all these performances were
-[01:35] impeccable in my opinion I didn't see a
-[01:38] false note anywhere I want to thank
-[01:41] shell Mark valet our director want to
-[01:47] thank trade Leto
-[01:48] Jennifer Garner or worked with Daley um
-[01:53] there's a few things about three things
-[01:56] to my account that I need each day one I
-[02:00] miss something to look up to another is
-[02:02] something to look forward to and another
-[02:04] is someone to chase now first off I want
-[02:10] to thank God because that's who I look
-[02:12] up to
-[02:13] he's graced my life with opportunities
-[02:16] that I know are not of my hand or any
-[02:18] other human hand he has shown me that
-[02:22] it's a scientific fact that gratitude
-[02:25] reciprocates in the words of a late
-[02:29] Charlie Lawton who said when you got God
-[02:33] you got a friend and that friend is you
-[02:37] to my family that's who and what I look
-[02:42] forward to to my father who I know he's
-[02:44] up there right now with a big pot of
-[02:46] gumbo he's got a lemon meringue pie over
-[02:48] there he's probably in his underwear
-[02:50] he's got a cold can of Miller Lite he's
-[02:51] dancing right
-[02:54] do you dad you taught me what it means
-[02:57] to be a man to my mother who's here
-[02:59] tonight who taught me and my two older
-[03:02] brothers demanded that we respect
-[03:05] ourselves and what we in turn learned
-[03:07] was then we were better able to respect
-[03:09] others thank you for that mama - my wife
-[03:12] Camilla and my kids Levi
-[03:14] Peeta mr. stone the courage and
-[03:16] significance you give me every day I go
-[03:18] out the door is unparalleled you are the
-[03:20] four people in my life I want to make
-[03:22] the most proud of me thank you
-[03:26] and to my hero that's who I chase now
-[03:32] when I was fifteen years old I had a
-[03:34] very important person in my life come to
-[03:36] me and say who's your hero and I said I
-[03:37] got to think about that give me a couple
-[03:38] of weeks I come back two weeks later
-[03:39] this person comes out and says who's
-[03:41] your hero I said I thought about it you
-[03:42] know who it is I said it's me in ten
-[03:44] years
-[03:45] so I turned twenty five ten years later
-[03:48] that same person comes Mingo so you're a
-[03:50] hero and I was like not even close no no
-[03:53] no she said why I said because my heroes
-[03:56] me at 35 so you see every day every week
-[03:58] every month and every year of my life my
-[04:01] heroes always ten years away
-[04:03] I'm never gonna be my hero I'm not gonna
-[04:05] attain that I know I'm not and that's
-[04:07] just fine with me because that keeps me
-[04:08] with somebody to keep on chasing so to
-[04:12] any of us whatever those things are
-[04:14] whatever it is we look up to whatever it
-[04:16] is we look forward to and whoever it is
-[04:18] we're chasing to that I say amen to that
-[04:20] I say all right all right all right hey
-[04:25] just keep letting him
-[04:26] thank you
+[00:00] [Applause]
+[00:00] Hello everyone. Good morning. I learned
+[00:02] that today is the start of Gemini
+[00:04] season. I'm not really sure what the big
+[00:07] deal is. Every day is Gemini season here
+[00:09] at Google. Our 7th generation TPU,
+[00:12] Ironwood, it delivers 10x the
+[00:14] performance over the previous generation
+[00:17] and packs an incredible 42.5 xlops of
+[00:21] compute per pod. And it's coming to
+[00:23] Google Cloud customers later this year.
+[00:26] Introducing Google Beam, a new AI first
+[00:30] video communications platform. An array
+[00:33] of six cameras captures you from
+[00:35] different angles. And with AI, we can
+[00:38] merge these video streams together and
+[00:41] render you on a 3D light field display.
+[00:44] With nearperfect headtracking down to
+[00:46] the millimeter and at 60 frames per
+[00:48] second, all in real time. The result, a
+[00:52] much more natural and deeply immersive
+[00:56] conversational experience. In
+[00:58] collaboration with HP, the first Google
+[01:00] Beam devices will be available for early
+[01:03] customers later this year. We've been
+[01:06] bringing underlying technology from
+[01:08] Starline into Google Meet. That includes
+[01:11] realtime speech translation to help
+[01:13] break down language barriers. Let me
+[01:15] turn on speech translation.
+[01:20] It's nice to finally talk to
+[01:28] you. You're going to have a lot of fun
+[01:30] and I think you're going to love
+[01:31] visiting the city. The house is in a
+[01:34] very nice neighborhood and overlooks the
+[01:36] mountains. And today we are introducing
+[01:39] this real-time speech translation
+[01:41] directly in Google Meet. English and
+[01:44] Spanish translation is now available for
+[01:46] subscribers with more languages rolling
+[01:50] out in the next few weeks and real-time
+[01:52] translation will be coming to
+[01:53] enterprises later this year. We are
+[01:55] starting to bring it to our products
+[01:58] today. Gemini live as Project Astra's
+[02:00] camera and screen sharing capabilities
+[02:03] so you can talk about anything you see.
+[02:05] That's a pretty nice convertible. I
+[02:08] think you might have mistaken the
+[02:09] garbage truck for a convertible. Is
+[02:11] there anything else I can help you with?
+[02:13] What's this skinny building doing in my
+[02:15] neighborhood? It's a street light, not a
+[02:17] building. Why is this person following
+[02:20] me wherever I walk? No one's following
+[02:23] you. That's just your shadow. Gemini is
+[02:26] pretty good at telling you when you're
+[02:28] wrong. We are rolling this out to
+[02:30] everyone on Android and iOS starting
+[02:33] today. We also have our research
+[02:36] prototype, Project Mariner. It's an
+[02:38] agent that can interact with the web and
+[02:41] get stuff done. First, we are
+[02:44] introducing multitasking and it can now
+[02:46] oversee up to 10 simultaneous tasks.
+[02:49] Second, it's using a feature called
+[02:51] teach and repeat. This is where you can
+[02:54] show it a task once and it learns a plan
+[02:57] for similar tasks in the future. We are
+[03:00] bringing project mariner's computer use
+[03:02] capabilities to developers via the
+[03:05] Gemini API and it will be available more
+[03:08] broadly this summer. Then there is the
+[03:10] model context protocol introduced by
+[03:13] Anthropic so agents can access other
+[03:15] services. And today we are excited to
+[03:18] announce that our Gemini SDK is now
+[03:21] compatible with MCP tools. And we are
+[03:24] starting to bring Agentic capabilities
+[03:26] to Chrome search and the Gemini app. Let
+[03:30] me show you what we are excited about in
+[03:32] the Gemini app. We call it agent mode.
+[03:36] Normally, you'd have to spend a lot of
+[03:38] time scrolling through endless listings.
+[03:40] Using agent mode, the Gemini app goes to
+[03:43] work behind the scenes. It finds
+[03:46] listings from sites like Zillow that
+[03:48] match your criteria and uses Project
+[03:51] Mariner when needed to adjust very
+[03:53] specific filters. If there's an
+[03:55] apartment you want to check out, Gemini
+[03:57] uses MCP to access the listings and even
+[04:01] schedule a tour on your behalf. An
+[04:03] experimental version of the agent mode
+[04:05] in the Gemini app will be coming soon to
+[04:08] subscribers. Personalization will be
+[04:11] really powerful. We are working to bring
+[04:14] this to life with something we call
+[04:16] personal context. With your permission,
+[04:19] Gemini models can use relevant context
+[04:22] across your Google apps in a way that is
+[04:24] private, transparent, and fully under
+[04:27] your control. You might be familiar with
+[04:29] our AI powered smart reply features.
+[04:31] Now, imagine if those responses could
+[04:34] sound like you. That's the idea behind
+[04:37] personalized smart replies. Let's say my
+[04:40] friend wrote to me looking for advice.
+[04:42] Now, if I'm being honest, I would
+[04:44] probably reply something short and
+[04:46] unhelpful. Sorry,
+[04:48] Felix. But with personalized smart
+[04:50] replies, I can be a better friend.
+[04:53] That's because Gemini can do almost all
+[04:57] the work for me. Looking up my notes in
+[04:59] Drive, scanning past emails for
+[05:02] reservations, and finding my itinerary
+[05:05] in Google Docs, Gemini matches my
+[05:07] typical greetings from past emails,
+[05:10] captures my tone, style, and favorite
+[05:14] word choices, and then it automatically
+[05:17] generates a reply. This will be
+[05:19] available in Gmail this summer for
+[05:22] subscribers. Gemini Flash is our most
+[05:24] efficient workhorse model. Today, I'm
+[05:27] thrilled to announce that we're
+[05:28] releasing an updated version of 2.5
+[05:30] Flash. The new Flash is better in nearly
+[05:33] every dimension, improving across key
+[05:36] benchmarks for reasoning, code, and long
+[05:38] context. I'm excited to say that Flash
+[05:41] will be generally available in early
+[05:43] June with Pro soon after, but you can go
+[05:46] try out the preview now in AI Studio,
+[05:48] Vertex AI, and Gemini app. We are also
+[05:52] introducing new previews for text to
+[05:54] speech. These now have a firstofits-kind
+[05:58] multie support for two voices built on
+[06:02] native audio output. This means the
+[06:05] model can converse in more expressive
+[06:08] ways. It can capture the really subtle
+[06:10] nuances of how we
+[06:13] speak. It can even seamlessly switch to
+[06:16] a whisper like this. This works in over
+[06:19] 24 languages and it can even easily go
+[06:23] between languages. So the model can
+[06:26] begin speaking in English but
+[06:34] then switch back all with the same
+[06:37] voice.
+[06:39] You can use this texttospech capability
+[06:41] starting today in the Gemini API.
+[06:45] Second, we've strengthened protections
+[06:47] against security threats like indirect
+[06:49] prompt injections. So Gemini 2.5 is our
+[06:52] most secure model yet. And in both 2.5
+[06:57] Pro and Flash, we're including thought
+[06:59] summaries via the Gemini API and Vert.Ex
+[07:02] AI. Thought summaries take the model's
+[07:05] raw thoughts and organize them into a
+[07:08] clear format with headers, key details,
+[07:11] and information about model actions like
+[07:13] tool calls. Finally, we launched 2.5
+[07:16] Flash with Thinking Budgets to give you
+[07:19] control over cost and latency versus
+[07:21] quality. So, we're bringing Thinking
+[07:23] Budgets to 2.5 Pro, which will roll out
+[07:26] in the coming weeks along with our
+[07:28] generally available model. You've seen
+[07:30] something like this before, right?
+[07:32] Someone comes to you with a brilliant
+[07:35] idea scratched on a napkin. I am going
+[07:37] to add the image I just showed you of
+[07:40] the sphere and I'm going to add in a
+[07:43] prompt that asks 2.5 Pro to update my
+[07:46] code based on the image. And I'm going
+[07:48] to jump to another tab that I ran right
+[07:50] before this keynote with the same
+[07:51] prompt. And here's what Gemini
+[07:55] generates. Whoa. We went from that rough
+[07:59] sketch directly to code updating
+[08:02] multiple of my files. And actually, you
+[08:04] can see it thought for 37 seconds and
+[08:07] you can see the changes it thought
+[08:08] through and then the files it updated.
+[08:11] But what if it
+[08:13] talked? That's where Gemini's native
+[08:16] audio comes in. That's a panglin and its
+[08:19] scales are made of keratin just like
+[08:22] your fingernails. 2.5 Pro is available
+[08:25] on your favorite IDE platforms and in
+[08:28] Google products like Android Studio,
+[08:31] Firebase Studio, Gemini Code Assist, and
+[08:35] our asynchronous coding agent, Jules.
+[08:38] Jules can tackle complex tasks in large
+[08:41] code bases that used to take hours, like
+[08:43] updating an older version of
+[08:45] Node.js. It can plan the steps, modify
+[08:48] files, and more in minutes.
+[08:51] So today, I'm delighted to announce that
+[08:54] Jules is now in public beta, so anyone
+[08:56] can sign up at
+[08:57] jewels.google. Gemini diffusion is a
+[09:00] state-of-the-art experimental text
+[09:02] diffusion model. The version of Gemini
+[09:05] diffusion we're releasing today,
+[09:07] generates five times faster than even
+[09:09] 2.0 Flashlight, our fastest model so
+[09:12] far, while matching its coding
+[09:15] performance. So take this math example.
+[09:18] Ready? Go.
+[09:21] If you blinked, you missed it. Today,
+[09:23] we're making 2.5 Pro even better by
+[09:26] introducing a new mode we're calling
+[09:29] Deep
+[09:30] Think. It gets an impressive score on
+[09:32] USA Mo 2025, currently one of the
+[09:36] hardest math benchmarks. We're taking a
+[09:38] little bit of extra time to conduct more
+[09:40] Frontier safety evaluations and get
+[09:42] further input from safety experts. As
+[09:45] part of that, we're going to make it
+[09:47] available to trusted testers via the
+[09:49] Gemini API to get their feedback before
+[09:52] making it widely available. Gemini is
+[09:54] already the best multimodal foundation
+[09:56] model, but we're working hard to extend
+[09:59] it to become what we call a world model.
+[10:03] This is our ultimate vision for the
+[10:04] Gemini app to transform it into a
+[10:07] universal AI assistant. This starts with
+[10:10] the capabilities we first explored last
+[10:13] year in Project Astra, such as video
+[10:15] understanding, screen sharing and
+[10:17] memory. For example, we've upgraded
+[10:19] voice output to be more natural with
+[10:21] native audio. We've improved memory and
+[10:24] added computer control. Let's take a
+[10:26] look. I think I stripped this screw. Can
+[10:29] you go on YouTube and find a video for
+[10:31] how to fix that? Of course. I'm opening
+[10:34] YouTube now.
+[10:38] This looks like a good video. It seems
+[10:40] like I need a spare tension screw. Can
+[10:43] you call the nearest bike shop and see
+[10:45] what they have in stock? Yep. Calling
+[10:47] them now. I'll get back to you with what
+[10:49] they have in stock. Hey, uh, any updates
+[10:51] on that call? Yep. I just got off of the
+[10:54] bike shop. They confirmed they have your
+[10:55] tension screw in stock. We've built
+[10:58] Alpha Proof that can solve mass Olympia
+[11:00] problems at the silver medal level.
+[11:02] co-scientist that can collaborate with
+[11:05] researchers, helping them develop and
+[11:06] test novel hypotheses. And we've just
+[11:09] released Alpha Evolve, which can
+[11:11] discover new scientific knowledge and
+[11:13] speed up AI training
+[11:15] itself. In the life sciences, we've
+[11:18] built Amy, a research system that could
+[11:20] help clinicians with medical
+[11:22] diagnosis. Alphold 3, which can predict
+[11:25] the structure and interactions of all of
+[11:27] life's molecules. and isomorphic labs
+[11:30] which builds on our alpha fold work to
+[11:32] revolutionize the drug disro drug
+[11:34] discovery process with AI and will one
+[11:37] day help to solve many global
+[11:39] diseases. As people use AI overviews, we
+[11:42] see they are happier with their results
+[11:45] and they search more often. For those
+[11:47] who want an end toend AI search
+[11:49] experience, we are introducing an allnew
+[11:52] AI mode. It's a total reimagining of
+[11:55] search. With more advanced reasoning,
+[11:59] you can ask AI mode longer and more
+[12:01] complex queries. In fact, users have
+[12:05] been asking much longer queries, two to
+[12:07] three times the length of traditional
+[12:09] searches. And I'm excited to share that
+[12:12] AI mode is coming to everyone in the US
+[12:15] starting today. Soon, AI mode will be
+[12:18] able to make your responses even more
+[12:19] helpful with personalized suggestions
+[12:22] based on your past
+[12:24] searches. You can also opt in to connect
+[12:26] other Google apps starting with Gmail.
+[12:29] Now, this is always under your control,
+[12:31] and you can choose to connect or
+[12:32] disconnect at any
+[12:34] time. Personal context is coming to AI
+[12:37] mode this summer. You already come to
+[12:39] search today to really unpack a topic,
+[12:42] but this brings it to a much deeper
+[12:43] level. So much so that we're calling
+[12:46] this deep search. It reasons across all
+[12:49] those disparate pieces of information to
+[12:52] create an expert level fully cited
+[12:54] report in just minutes. So I'll ask,
+[12:57] show the batting average and on base
+[12:59] percentage for this season and last for
+[13:02] notable players who currently use a
+[13:04] torpedo bat. I get this helpful
+[13:06] response, including this easy to read
+[13:08] table. I can follow up and ask, "How
+[13:11] many home runs have these players hit
+[13:13] this season?" Search figured out that
+[13:15] the best way to present this information
+[13:17] is a graph and it created it. It's like
+[13:20] having my very own sports analyst right
+[13:23] in
+[13:24] search. Complex analysis and data
+[13:27] visualization is coming this summer for
+[13:29] sports and financial questions. So, I'm
+[13:32] excited to share that we're bringing
+[13:34] Project Mariner's agentic capabilities
+[13:37] into AI mode. I'll say find two
+[13:40] affordable tickets for this Saturday's
+[13:42] Reds game in the lower level. Search
+[13:45] kicks off a query fan out looking across
+[13:48] several sites to analyze hundreds of
+[13:50] potential ticket options. Search helps
+[13:52] me skip a bunch of steps linking me
+[13:54] right to finish checking out. We're
+[13:57] taking the next big leap in
+[13:59] multimodality by bringing Project
+[14:01] Astra's live capabilities into AI mode.
+[14:04] We call this search live. It's like
+[14:07] hopping on a video call with search. We
+[14:10] are introducing a new try on feature
+[14:12] that will help you virtually try on
+[14:15] clothes. I really like this blue one. I
+[14:18] click on this button to try it on. It
+[14:21] asks me to upload a picture which takes
+[14:24] me to my camera roll. I have many
+[14:26] pictures here. I'm going to pick one
+[14:28] that is full length and a clear view of
+[14:31] me. We built a custom image generation
+[14:34] model specifically trained for fashion.
+[14:37] Wow. And it's
+[14:39] back. The AI model is able to show how
+[14:43] this material will fold and stretch and
+[14:46] drape on people. And let's assume the
+[14:48] price is now
+[14:50] dropped. When that happens, I get a
+[14:53] notification just like this. And if I
+[14:56] want to buy, my checkout agent will add
+[14:59] the right size and color to my cart. I
+[15:02] can choose to review all my payment and
+[15:04] shipping information or just the let the
+[15:07] agent just buy it for me with just one
+[15:10] tap search securely buys it for me with
+[15:13] Google Pay. And of course, all of this
+[15:15] happen under my guidance. Our new visual
+[15:18] shopping and agentic checkout features
+[15:21] are rolling out in the coming months and
+[15:23] you can start trying on looks in labs
+[15:26] beginning today. We're launching five
+[15:29] things today. First, let's talk about
+[15:31] Gemini Live. Now, as Sundar mentioned,
+[15:34] Gemini Live now includes camera and
+[15:36] screen sharing, both of which are
+[15:38] incredible. All of it is rolling out
+[15:41] free of charge in the Gemini app on
+[15:42] Android and iOS today. And in the coming
+[15:45] weeks, you'll be able to connect Gemini
+[15:47] Live to some of your favorite apps like
+[15:49] Calendar, Maps, Keep, Tasks. So soon,
+[15:53] you can just point your camera and ask
+[15:55] it to add an invite to your calendar and
+[15:57] it'll be done. Starting today, Deep
+[16:00] Research will now let you upload your
+[16:02] own files to guide the research agent.
+[16:05] So, let's say you have this incredible
+[16:07] detailed report. How do you get all that
+[16:09] brilliance distilled down into something
+[16:12] digestible, engaging? This is where
+[16:14] Canvas comes in. Canvas will now let you
+[16:17] transform that report with one tap into
+[16:20] all kinds of new things like a dynamic
+[16:23] web page, an infographic, a helpful
+[16:25] quiz, even a custom podcast in 45
+[16:28] languages. But if you want to go
+[16:30] further, you can vibe all sorts of
+[16:33] amazing things in Canvas with as much
+[16:35] back and forth as you want. We're
+[16:37] introducing Gemini and Chrome.
+[16:40] The amazing part is that you can use
+[16:43] this and it understands the context of
+[16:45] the page that you're on automatically.
+[16:48] So if you have a question, it can be
+[16:50] answered. We're starting to roll out
+[16:52] Gemini and Chrome this week to Gemini
+[16:54] subscribers in the US. Starting today,
+[16:57] we're bringing our latest and most
+[16:59] capable image generation model into the
+[17:02] Gemini app. It's called Imagine 4. And
+[17:06] Imagine 4 is so much better at text and
+[17:09] typography. In the past, you might have
+[17:12] created something that looked good, but
+[17:14] adding words didn't always work just
+[17:17] right. So, check this out. Maybe I want
+[17:19] to create a poster for a music festival.
+[17:22] We'll make the Chrome Dino the big
+[17:24] headliner. Imagine 4 doesn't just get
+[17:26] the text and spelling right. It's
+[17:28] actually making creative choices like
+[17:31] using dinosaur bones in the font or
+[17:34] figuring out the spacing, the font size,
+[17:36] the layout that makes it look like this
+[17:38] great poster. It's 10 times faster than
+[17:41] our previous model, so you can iterate
+[17:43] through many ideas
+[17:45] quickly. Images are incredible, but
+[17:48] sometimes you need motion and sound.
+[17:51] Today, I'm excited to announce our new
+[17:54] state-of-the-art model, VO3.
+[17:59] V3 comes with native audio generation.
+[18:03] That means that V3 can generate sound
+[18:06] effects, background sounds, and
+[18:09] dialogue. Now you prompt it and your
+[18:12] characters can speak. Take a listen.
+[18:19] They left behind a a ball today. It
+[18:22] bounced higher than I can jump.
+[18:25] What manner of magic is that?
+[18:34] Pretty cool, right? Vio added not just
+[18:36] the sounds of the forest, but also the
+[18:38] dialogue. This ocean, it's a force, a
+[18:42] wild, untamed might, and she commands
+[18:45] your awe with every breaking light.
+[18:48] Starting today, Gemini live capabilities
+[18:51] are free and rolling out across Android
+[18:53] and iOS. We recently launched LIA 2,
+[18:57] which can generate highfidelity music
+[18:59] and professional-grade audio. The music
+[19:01] is melodious with vocals in solos and
+[19:05] choirs. As you hear, it makes expressive
+[19:07] and rich music.
+[19:13] [Music]
+[19:20] LIA 2 is available today for
+[19:22] enterprises, YouTube creators, and
+[19:25] musicians. Right now, it's not easy for
+[19:27] people or organizations to detect AI
+[19:30] generated images. Two years ago, we
+[19:32] pioneered Synth ID, which embeds
+[19:34] invisible watermarks into generated
+[19:36] media. Our new synth ID detector can
+[19:39] identify if an image, audio track, text,
+[19:42] or video has synth ID in it, whether
+[19:44] it's in the whole piece or even just a
+[19:46] part. We're starting to roll this out to
+[19:48] early testers today. We teamed up with
+[19:51] visionary director Darren Areronowski
+[19:53] and his new storytelling venture,
+[19:55] Primordial Soup. Together, we are
+[19:57] putting the world's best video
+[19:58] generation model into the hands of top
+[20:00] filmmakers. The first of the
+[20:02] partnership's three short films is
+[20:04] director Eliza Mcnitz and Cesterra. We
+[20:08] filmed really emotional performances but
+[20:10] then generated video we could never
+[20:13] capture
+[20:15] otherwise. I want the baby to be holding
+[20:18] the mother's finger. Just the bliss of
+[20:21] the two of them.
+[20:22] Yeah. for every creature that came
+[20:26] before
+[20:27] you, from every star that died so that
+[20:31] you could begin. So when you're making a
+[20:34] video, it will use ingredients you give
+[20:36] it, characters, scenes, or styles, and
+[20:39] keep them consistent. Or you can direct
+[20:42] video, giving it precise camera
+[20:44] instructions, and have it shoot along a
+[20:46] specific path. We've been building a new
+[20:49] AI film making tool for creatives. We're
+[20:52] calling it Flow and it's launching
+[20:55] today. Let's drop into a project I'm
+[20:57] working on. Our hero, the grandpa, is
+[21:00] building a flying car with help from a
+[21:02] feathered friend. These are my
+[21:04] ingredients, the old man and his car. We
+[21:08] make it easy to upload your own images
+[21:10] into the tool, or you can generate them
+[21:12] on the fly using Imagine, which is built
+[21:15] right in. If I want to capture the next
+[21:17] shot of the scene, I can just hit the
+[21:19] plus icon to create the next shot. I can
+[21:23] describe what I want to happen next,
+[21:25] like adding a 10-ft tall chicken in the
+[21:27] back seat, and Flow will do the rest.
+[21:30] The character consistency, the scene
+[21:33] consistency, it just works. And if
+[21:35] something isn't, oh, quite right, no
+[21:38] problem. You can just go back in like
+[21:40] any other video tool and trim it up if
+[21:43] it's not working for you. But flow works
+[21:46] in the other direction as well. It lets
+[21:49] you extend a clip, too. So, I can get
+[21:52] the perfect ending that I've been
+[21:54] working towards. Once I've got all the
+[21:56] clips I need, I can download the files.
+[21:59] I can bring them into my favorite
+[22:01] editing software, add some music from
+[22:03] LIA, and now the old man finally has his
+[22:07] flying car.
+[22:16] [Music]
+[22:24] [Applause]
+[22:27] So, I'm excited to share that we're
+[22:29] upgrading and two AI subscription plans
+[22:32] today. We will have Google AI Pro and
+[22:35] the all-new Google AI Ultra.
+[22:39] With the pro plan, which is going to be
+[22:41] available globally, you'll get a full
+[22:43] suite of AI products with higher rate
+[22:45] limits and special features compared to
+[22:48] the free version. Then there's the Ultra
+[22:51] plan. The plan comes with the highest
+[22:54] rate limits, the earliest access to new
+[22:56] features and products from across
+[22:58] Google. It's available in the US today
+[23:02] and we'll be rolling it out globally
+[23:04] soon.
+[23:05] So, if you're an Ultra subscriber,
+[23:07] you'll get huge rate limits and access
+[23:09] to that 2.5 Pro deep think mode in the
+[23:12] Gemini app when it's ready. You'll get
+[23:15] access to Flow with VO3 available today.
+[23:20] And it also comes with YouTube Premium
+[23:22] and a massive amount of storage. In the
+[23:25] coming months, we're bringing Gemini to
+[23:27] your watch, your car's dashboard, even
+[23:31] your TV. But what about emerging form
+[23:34] factors that could let you experience an
+[23:37] AI assistant in new ways? That's exactly
+[23:41] why we're building Android
+[23:45] XR. From headsets to glasses and
+[23:49] everything in between. We believe
+[23:51] there's not a one-sizefits-all for XR,
+[23:54] and you'll use different devices
+[23:56] throughout your day. For example, for
+[23:59] watching movies, playing games, or
+[24:02] getting work done, you'll want an
+[24:04] immersive
+[24:05] headset. But when you're on the go,
+[24:08] you'll want lightweight glasses that can
+[24:10] give you timely information without
+[24:12] reaching for your phone. We built
+[24:15] Android XR together as one team with
+[24:17] Samsung and optimized it for Snapdragon
+[24:21] with Qualcomm. Let's start with Gemini
+[24:23] on headsets. This is Samsung's Project
+[24:27] Muhan, the first Android XR device.
+[24:31] Muhan gives you an infinite screen to
+[24:33] explore your apps by with Gemini by your
+[24:36] side. With Google Maps in XR, you can
+[24:39] teleport anywhere in the world simply by
+[24:42] asking Gemini to take you there. You can
+[24:45] talk with your AI assistant about
+[24:48] anything you see and have it pull up
+[24:50] videos and websites about what you're
+[24:53] exploring. Imagine watching them play in
+[24:56] the MLB app as if you were right there
+[24:58] in the stadium while chatting with
+[25:01] Gemini about player and game
+[25:04] stats. Samsung's Project Muhan will be
+[25:07] available for purchase later this year.
+[25:10] Let's turn our attention to glasses.
+[25:14] Glasses with Android XR are lightweight
+[25:17] and designed for all day wear, even
+[25:19] though they're packed with
+[25:21] technology. A camera and microphones
+[25:24] give Gemini the ability to see and hear
+[25:27] the world. Speakers let you listen to
+[25:30] the AI, play music, or take calls. And
+[25:33] an optional inlens display privately
+[25:36] shows you helpful information just when
+[25:39] you need it. These glasses work with
+[25:42] your phone, giving you access to your
+[25:44] apps while keeping your hands free. All
+[25:47] this makes glasses a natural form factor
+[25:50] for AI. Let's see how they work in the
+[25:54] most hectic environment possible right
+[25:56] now. Backstage at IO.
+[26:01] Hey everyone. Right now you should be
+[26:04] seeing exactly what I'm seeing through
+[26:06] the lens of my Android XR glasses. Like
+[26:09] my delicious coffee over here and that
+[26:11] text from Sham that just came in. Let's
+[26:13] see what he
+[26:15] said. All right, it's definitely
+[26:17] showtime. So, I'm going to launch Gemini
+[26:20] and get us
+[26:21] going. Send Shurama a text that I'm
+[26:23] getting started and silence my
+[26:25] notifications, please.
+[26:29] Okay, I've sent that message to him and
+[26:31] muted all your notifications.
+[26:34] Perfect.
+[26:36] Oh, hey Misha. Hey, Jer. I see the
+[26:38] lights on on your glasses, so I think
+[26:39] it's safe to say that we're live right
+[26:41] now. Yes, we're officially on with the
+[26:43] IO crew. Hey, everybody. It is pretty
+[26:45] great to see IO from this angle. Nisha,
+[26:47] you promised me I could get my own pair
+[26:49] of Android XR glasses if I helped out
+[26:51] back here. So, uh, what do you say? Of
+[26:53] course. Let's get coffee after this and
+[26:55] I'll bring you those glasses. Awesome.
+[26:56] We'll see you then. Good luck. Thank
+[26:58] you. As you all can see, there's a ton
+[27:01] going on backstage. And is that pro
+[27:04] basketball player Giannis wearing our
+[27:06] glasses? I love them. It stretches out
+[27:09] both of my hands for double high fives.
+[27:12] Nice. Let me keep showing you guys what
+[27:14] these glasses can do. I've been curious
+[27:17] about this photo wall all day. Like,
+[27:20] what band is this? And how are they
+[27:22] connected to this
+[27:33] place? Shoreline Amphitheater, which are
+[27:36] often seen as homecoming shows for the
+[27:38] band. Gemini, what was the name of the
+[27:41] coffee shop on the cup I had earlier?
+[27:45] H. That might have been Bloomsgiving.
+[27:47] From what I can tell, it's a vibrant
+[27:49] coffee shop on Castro Street. Great
+[27:52] memory. Can you show me the photos of
+[27:55] that cafe? I want to check out the
+[27:56] vibes.
+[28:00] Definitely. Do these photos from maps
+[28:02] help? Oh, I know that spot. It's a
+[28:04] flower shop as well as a coffee shop,
+[28:06] but it is downtown. H Okay, Gemini, show
+[28:09] me what it would take to walk here.
+[28:14] getting those directions now. It'll take
+[28:17] you about an hour.
+[28:19] Okay, I can get some steps in. And these
+[28:22] heads up directions and a full 3D map
+[28:25] should make it super
+[28:29] easy. Go ahead and send deer an invite
+[28:32] for that cafe and get coffee at 3 p.m.
+[28:35] today.
+[28:39] I'll send out that invite now. Enjoy the
+[28:41] coffee. As you saw, Gemini helped Nisha
+[28:45] search what she sees, remember details
+[28:48] like the coffee t coffee coffee cup,
+[28:50] book an event, even navigate, all
+[28:53] without taking her phone out of her
+[28:55] pocket. I'm even wearing the glasses
+[28:58] right now, too. They're my They're my
+[29:00] personal teleprompter, and I have
+[29:02] prescription lenses so I can see you
+[29:04] all. Okay, Nisha, this is a big moment
+[29:07] for glasses. Let's capture it. Yes. Get
+[29:10] ready for a quick photo everyone and
+[29:11] let's bring out our star.
+[29:14] [Applause]
+[29:19] All right, Gemini. Janice,
+[29:22] take a photo for me.
+[29:32] All right, Gemini, take a photo for me
+[29:34] and add it to my favorites.
+[29:44] That looks
+[29:45] amazing. Cinder showed what's possible
+[29:48] with live chat translation earlier.
+[29:50] Let's see what that's like on glasses.
+[29:54] This is a very risky demo, but we're
+[29:56] going to give it a
+[29:58] shot. Nisha and I are going to speak to
+[30:01] each other in our mother tongues.
+[30:03] Nisha's going to speak Hindi. I'm going
+[30:05] to speak FYI. very poorly. And you'll
+[30:08] see the feed from both of our glasses
+[30:11] back here. And so you can all follow
+[30:13] along, we'll show an English translation
+[30:16] in real time. Okay, let's give it a
+[30:20] shot. Fingers crossed.
+[30:36] Huh? Bill.
+[30:53] far
+[31:00] man. See, we said it's a risky
+[31:05] demo.
+[31:07] Let's We're taking our partnership with
+[31:10] Samsung to the next level by extending
+[31:13] Android XR beyond headsets to glasses.
+[31:16] Our glasses prototypes are already being
+[31:19] used by trusted testers and you'll be
+[31:22] able to start developing for glasses
+[31:24] later this year. Gentle Monster and
+[31:27] Warby Parker will be the first eyeear
+[31:30] partners to build glasses with Android
+[31:33] XR. Today you've heard a lot about ELOS
+[31:36] scores benchmarks and state-of-the-art
+[31:39] performance, but I know there's one
+[31:41] metric you've all been waiting for, our
+[31:44] AI counter. So, let's take a look at one
+[31:47] last
+[31:49] leaderboard. Looks like uh I guess we
+[31:52] have a new entrant. Gemini takes the
+[31:55] lead coming in at
+[31:59] 95. On a more serious note, here's
+[32:01] everything we've announced today. From
+[32:04] new launches and product expansions to
+[32:07] glimmers of what's to come, the
+[32:10] opportunity with AI is truly as big as
+[32:12] it gets. and I can't wait to see what
+[32:15] amazing things we'll build together
+[32:17] next. Thank you.
